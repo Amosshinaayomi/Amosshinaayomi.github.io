@@ -970,11 +970,9 @@ align-items: center;
 
 
 
-
-
 @media(orientation:portrait){
     .homepage{
-        height: calc(100vh - 50px);
+        height: 100vh;
     }
 }
  
