@@ -868,6 +868,10 @@ align-items: center;
           font-size: 2.5vw;
           line-height: 30px;
       }
+     .homepage{
+    Height: 100vh;
+   }
+
 }
 
 
@@ -968,11 +972,9 @@ align-items: center;
    
 }
 
-
-
-@media(orientation:portrait){
-    .homepage{
-        height: 100vh;
-    }
+@media(orientation:landscape){
+  .homepage{
+    height: 100%;
+}
 }
  
