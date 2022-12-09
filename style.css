@@ -795,14 +795,10 @@ align-items: center;
 
 
 @media(min-width:500px){
-    [class*="content-"]{
-   
-    align-self: center;
-    padding: 2px;
-    font-weight: bolder;
-    line-height: 40px;
-    color: #452b2d;
-  }
+     [class*="content-"]{
+          line-height: 1.5;
+          font-size: 2.5vw;
+      }
     .heroimg img{
         width:280px;
         height: 280px;
