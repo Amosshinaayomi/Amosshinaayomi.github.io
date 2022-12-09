@@ -514,6 +514,7 @@ align-items: center;
 .slider [class*="card-"]{
    width: 100%;
    height: 350px;
+   max-height: 50vh;
    overflow: hidden;
    position: relative;
    border-radius: 15px;
@@ -523,8 +524,7 @@ align-items: center;
 
 .slider [class*="card-"] img{
    width: 100%;
-   min-height: 350px;
-   max-height: 50vw;
+   height: 100%;
    display: block;
    align-self: flex-start;
    transition: 0.5s;
