@@ -964,7 +964,7 @@ align-items: center;
 
 @media(orientation:portrait){
     .homepage{
-        height: 100vh;
+        height: 100%;
     }
 }
  
