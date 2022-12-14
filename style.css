@@ -310,15 +310,17 @@ border-bottom: 1px solid #452b2d;
 }
 
  [class*="content-"]{
-    font-size: 1.1rem;
+    font-size: 1rem;
     align-self: center;
     padding: 3px;
     font-weight: 500;
     line-height: 1.4;
     color: var(--darker);
     font-family: 'Nunito', sans-serif;
-    
-    
+    hyphens: auto;
+    hyphenate-limit-lines: 2;
+    hyphenate-limit-chars: 6 3 2;
+    text-align: justify;
 } 
 
 
