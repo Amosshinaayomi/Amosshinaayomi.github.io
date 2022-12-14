@@ -55,7 +55,7 @@
     background-color:white;
     color: #452b2d;
     border: 1px solid black;
-  
+    cursor: pointer;
 }
 .logo a{
     text-decoration: none;
@@ -140,9 +140,7 @@
 }
 
 
-.topnav .menu-burger{
-    
-}
+
 
 .menu-burger .bars{
     width: 25px;
@@ -174,10 +172,11 @@
    }
    .times{
     display: block;
-    
-    
 }
 
+.topnav .menu-burger{
+    cursor: pointer;
+}
 .times img{
     margin: 10px;
     width: 25px;
